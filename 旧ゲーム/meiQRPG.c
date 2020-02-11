@@ -166,7 +166,7 @@ int compare_int(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
 
-void randomplayer(PLEYER *p){
+void randomplayer(PLAYER *p){
   int a[3], b[5], i;
 
   b[0] = 0;
@@ -195,9 +195,10 @@ PLAYER makePlayer(){
   return p1;
 }
 
-void makeNPC(PLEYER *NPC, int num){
+void makeNPC(PLAYER *NPC, int num){
   sprintf(NPC->num, "NPC%d", num);
-  strcpy(NPC->name, "")
+  strcpy(NPC->name, "");
+}
 
 void makemeiQ(ROOM room[]){
   int i, random, pre;
@@ -525,6 +526,7 @@ void newGame(){
   makemeiQ(room);
   wclear(underWin);
   runGame(p1, party, room);
+  }
 }
 
 int main(int argc, char **argv) {
