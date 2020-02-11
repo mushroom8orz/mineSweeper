@@ -523,10 +523,10 @@ void newGame(){
   party[2] = NULL;
   for(i = 0; i < 5; i++){
     makeNPC(&NPC[i], i);
+  }
   makemeiQ(room);
   wclear(underWin);
   runGame(p1, party, room);
-  }
 }
 
 int main(int argc, char **argv) {
