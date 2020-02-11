@@ -3,11 +3,7 @@
 端末上で動くTUI(text user interface)ですが，基本操作はクリック，文字に着色もしています．  
 ただし，ncursesで実装されているため，linux(Ubuntu)でしか動作しません．  
 
-<img width="200" alt="ゲーム画面" src="./ゲーム画面/ゲーム中.png">
-<img width="200" alt="ゲームオーバー" src="./ゲーム画面/ゲームオーバー.png">
-<img width="200" alt="クリア" src="./ゲーム画面/ゲームクリア.png">
-<img width="200" alt="オプション" src="./ゲーム画面/オプション.png">
-<img width="200" alt="エキスパート" src="./ゲーム画面/エキスパート.png">
+<img width="200" alt="ゲーム画面" src="./ゲーム画面/ゲーム中.png"><img width="200" alt="ゲームオーバー" src="./ゲーム画面/ゲームオーバー.png"><img width="200" alt="クリア" src="./ゲーム画面/ゲームクリア.png"><img width="200" alt="オプション" src="./ゲーム画面/オプション.png"><img width="400" alt="エキスパート" src="./ゲーム画面/エキスパート.png">
 
 # 説明
 大学講義での演習課題の一環として作成したゲーム．  
